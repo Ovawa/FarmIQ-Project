@@ -17,7 +17,7 @@ interface WeatherData {
 
 export function WeatherCard({ region }: { region?: string }) {
   const weatherData: WeatherData = {
-    temperature: 22,
+    temperature: 24,
     condition: "Broken Clouds",
     humidity: 29,
     windSpeed: 6.96,
